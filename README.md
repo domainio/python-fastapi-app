@@ -22,9 +22,9 @@ INFO:     Uvicorn running on http://127.0.0.1:8000
 
 ### Database
 This app uses `docker-compose` for local Postgres Database container.   
-Just prompt: `docker-compose up` then `docker-compose down` to cleanup.   
+Just prompt: `docker-compose up` and then at the end `docker-compose down` for cleanup.   
 
-The local Postgres docker instansiate with default credetials and db name:
+The local Postgres docker instantiated with default credentials and DB name:
 ```
 username=postgres
 password=postgres
