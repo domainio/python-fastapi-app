@@ -8,7 +8,7 @@ pip install -r requiments.txt
 ```
 ### :rocket: Launch app
 ```
-uvicorn books-api.main:app --reload
+uvicorn main:app --reload
 ```
 :white_check_mark: Expectted result:
 ```
