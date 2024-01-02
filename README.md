@@ -30,3 +30,25 @@ username=postgres
 password=postgres
 database=postgres
 ```
+
+### Test the API
+#### Create a new book (saved into the local DB)
+```
+curl --location --request POST 'localhost:8000/book/' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "book": {
+        "title": "Python coding with FastAPI",
+        "number_of_pages": 5
+    },
+    "author": {
+        "first_name": "Erez",
+        "last_name": "Zohar"
+    }
+}'
+```
+#### Get book by ID
+```
+curl --location --request GET 'localhost:8000/book/{book-id}'
+curl --location --request GET 'localhost:8000/book/1'
+```
