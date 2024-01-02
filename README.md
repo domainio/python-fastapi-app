@@ -1,6 +1,6 @@
-# Python FastAPI sapmle app
+# Python FastAPI sample app
 ## Books API app
-### Setup instructions
+### Setup
 ```
 python -m venv .venv
 source .venv/bin/activate 
