@@ -20,8 +20,8 @@ INFO:     Uvicorn running on http://127.0.0.1:8000
 > FastAPI automatically generate OpenAPI and Swagger documentation for your API at
 > ```http://127.0.0.1:8000/docs```
 
-
-This app uses `docker-compose` for local Postgres Database container.
+### Database
+This app uses `docker-compose` for local Postgres Database container.   
 Just prompt: `docker-compose up` then `docker-compose down` to cleanup.   
 
 The local Postgres docker instansiate with default credetials and db name:
